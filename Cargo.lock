@@ -9,12 +9,12 @@ dependencies = [
 [[package]]
 name = "collection_traits"
 version = "0.1.0"
-source = "git+https://github.com/nathanfaucett/rs-collection_traits#c1963e5fdea9918e33d1f785b62225ce414af6b9"
+source = "git+https://github.com/nathanfaucett/rs-collection_traits#8e5fb429d654666897d1fa1887f8790cd9815d2c"
 
 [[package]]
 name = "linked_list"
 version = "0.1.0"
-source = "git+https://github.com/nathanfaucett/rs-linked_list#1c0a84043af229a1e1a3c58904d466588b56c93a"
+source = "git+https://github.com/nathanfaucett/rs-linked_list#01005313fd142788abc9473af93f6ac9f137a176"
 dependencies = [
  "collection_traits 0.1.0 (git+https://github.com/nathanfaucett/rs-collection_traits)",
 ]
