@@ -13,11 +13,11 @@ use test::Bencher;
 use collection_traits::*;
 
 
-const SIZE: usize = 32;
+const SIZE: usize = 1024;
 
 
 #[bench]
-fn bench_list(b: &mut Bencher) {
+fn bench_persistent_list(b: &mut Bencher) {
     use persistent_list::PersistentList;
 
     b.iter(|| {
@@ -59,7 +59,7 @@ fn bench_std_linked_list(b: &mut Bencher) {
 
 
 #[bench]
-fn bench_list_iter(b: &mut Bencher) {
+fn bench_persistent_list_iter(b: &mut Bencher) {
     use persistent_list::PersistentList;
 
     let mut a = PersistentList::new();
